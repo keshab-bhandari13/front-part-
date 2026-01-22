@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(73, 74, 109);
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.navitems {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+
+}
+
+.navitems a {
+    text-decoration: none;
+    color: rgb(239, 234, 234);
+    font-size: 20px;
+}
+
+.visit {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navitems a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+
+
+.bodyy {
+
+    width: 100%;
+    position: relative;
+    height: 600px;
+
+}
+
+.image2 {
+    width: 500px;
+   
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+.imagg {
+    width: 100%;
+    position: relative;
+    height: 600px;
+    object-fit: cover;
+}
+
+.imh {
+    background-color: rgb(52, 135, 212);
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+  
+    /* width: 50%; */
+    color: black;
+}
+
+.text {
+    padding-left: 70px;
+    font-size: 30px;
+    width: 200%;
+}
+
+.lowertext {
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 31, 40);
+    width: 150%;
+    box-sizing: border-box;
+
+}
+
+
+.btn {
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+   
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 165, 0);
+
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    padding: 0 70px;
+}
+
+.imagee {
+    width: 100%;
+  height: 150%;
+    object-fit: cover;
+  
+}
+.pic{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.services{
+    display: flex;
+   padding-left: 120px;
+   gap: 50px;
+   position: absolute;
+   justify-content: space-between;
+   padding-top: 100px;
+}
+.sp{
+    font-size: 45px;
+    padding-top: 30px;
+    color: goldenrod;
+}
+.para{
+    padding-top: 10px;
+}
+.abt{
+    background-color: black;
+}
