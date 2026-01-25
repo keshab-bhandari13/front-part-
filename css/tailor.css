@@ -156,10 +156,12 @@
 .services{
     display: flex;
    padding-left: 120px;
+   background-color: red;
    gap: 50px;
    position: absolute;
    justify-content: space-between;
    padding-top: 100px;
+   
 }
 .sp{
     font-size: 45px;
@@ -171,4 +173,13 @@
 }
 .abt{
     background-color: black;
+}
+.next{
+    background-color: bisque;
+    height: 200px;
+}
+.down{
+    background-color: black;
+    height: 300px;
+
 }
