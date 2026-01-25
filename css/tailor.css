@@ -156,12 +156,12 @@
 .services{
     display: flex;
    padding-left: 120px;
-   background-color: red;
+  
    gap: 50px;
-   position: absolute;
    justify-content: space-between;
-   padding-top: 100px;
-   
+   /* padding-top: 100px; */
+   margin-top: 50px;
+
 }
 .sp{
     font-size: 45px;
@@ -178,8 +178,45 @@
     background-color: bisque;
     height: 200px;
 }
-.down{
-    background-color: black;
-    height: 300px;
+ .down{
+   padding-top: 100px;
+} 
+ .about{
+  margin-left: 800px;
+    padding-top: 50px;
+ height: 450px;
+     background-color: rgb(67, 131, 183);
+    width: 600px;
+    color:white;
+  
+}   
+.textabt {
+    font-size: 50px;
+    padding-top: 5px;
+    padding-left: 50px;
+
+}
+.text2abt{
+   
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.btnabt{
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnabt:hover {
+    background-color: rgb(255, 165, 0);
 
 }
