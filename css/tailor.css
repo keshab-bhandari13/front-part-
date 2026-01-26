@@ -159,7 +159,7 @@
   
   
    justify-content: space-around;
-    padding-top: 100px; 
+    padding-top: 130px; 
    /* margin-top: 50px; */
 
 }
@@ -179,9 +179,9 @@
     height: 200px;
 }
  .down{
-   padding-top: 100px;
+   padding-top: 150px;
     display: flex;
-;
+
 } 
  .about{
  
@@ -244,6 +244,9 @@
     object-fit: contain;
    
 }
+.ser{
+    padding-top: 50px;
+}
 .serv{
     font-size: 50px;
     padding-left: 550px;
@@ -268,10 +271,11 @@
     padding-top: 10px;
     font-size: 15px;
 }
-.video > div {
+.video  {
     position: relative;
     display: inline-block;
     width: 100%;
+    padding-top: 100px;
 }
 
 .vidimg{
@@ -306,6 +310,9 @@
     object-fit: cover;
     border-radius: 50px;
    
+}
+.testimonial{
+    padding-top: 150px;
 }
 .testimg{
     padding-left: 300px;
